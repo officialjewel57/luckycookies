@@ -1,6 +1,6 @@
 Game.registerMod("luckymod",{
     init:function(){
-      Game.Notify("Unluckiest mod ever has loaded!", "hey its not the unluckiest at least", [16, 5]);
+      Game.Notify("Luckiest mod ever has loaded!", "hey its not the unluckiest at least", [16, 5]);
       let keepsakesA = Game.Reset.toString();
       let keepsakesB = keepsakesA.replace("if (Game.Has('Keepsakes') && Game.seasonDrops.indexOf(me.name)!=-1 && Math.random()<1/5){}", "if (Game.Has('Keepsakes') && Game.seasonDrops.indexOf(me.name)!=-1 && Math.random()<1){}").replace("else if (Game.HasAchiev('O Fortuna') && me.tier=='fortune' && Math.random()<0.4){}", "else if (Game.HasAchiev('O Fortuna') && me.tier=='fortune' && Math.random()<1){}");
       let sugarA = Game.clickLump.toString();
@@ -47,4 +47,5 @@ Game.registerMod("luckymod",{
     },
     load:function(str){
     },
+
 });
