@@ -1,4 +1,4 @@
-# Unluckiest-CCMod
+# luckymod
 
 A new mod for cookie clicker that gives you the best possible luck for cookie clicker.
 
