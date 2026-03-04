@@ -1,0 +1,11 @@
+{
+ "Name": "luckiest mod ever",
+ "Description": "gives you the most luck",
+ "Author": "officialjewel57",
+ "ID": "luckymod",
+ "ModVersion": 1,
+ "GameVersion": 2.052,
+ "Date": "19/2/26",
+ "Dependencies": [],
+ "Disabled": 1
+}
